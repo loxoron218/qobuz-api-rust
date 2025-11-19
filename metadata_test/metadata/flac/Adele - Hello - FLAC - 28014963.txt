@@ -1,0 +1,47 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Adele - Hello - FLAC - 28014963.flac
+[System]        Directory                       : metadata_test/downloads/flac
+[System]        File Size                       : 3.0 MB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:36+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:36+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:36+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 6731
+[FLAC]          Frame Size Max                  : 12043
+[FLAC]          Sample Rate                     : 44100
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 16
+[FLAC]          Total Samples                   : 1327104
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 600
+[FLAC]          Picture Height                  : 600
+[FLAC]          Picture Bits Per Pixel          : 24
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 54103
+[FLAC]          Picture                         : (Binary data 54103 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Hello
+[Vorbis]        Album                           : 25
+[Vorbis]        Albumartist                     : Adele
+[Vorbis]        Artist                          : Adele
+[Vorbis]        Composer                        : Adele
+[Vorbis]        Label                           : XL Recordings
+[Vorbis]        Genre                           : Soul
+[Vorbis]        Track Number                    : 1
+[Vorbis]        Tracktotal                      : 11
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Copyright                       : 2015 XL Recordings Ltd 2015 XL Recordings Ltd
+[Vorbis]        ISRC Number                     : GBBKS1500214
+[Vorbis]        Year                            : 2015
+[Vorbis]        Date                            : 2015-11-20
+[Vorbis]        Media                           : album
+[Composite]     Duration                        : 0:00:30

@@ -1,0 +1,48 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Daft Punk - Around the World - FLAC - 1065482.flac
+[System]        Directory                       : metadata_test/downloads/flac
+[System]        File Size                       : 3.5 MB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:32+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:32+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:32+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 5559
+[FLAC]          Frame Size Max                  : 15389
+[FLAC]          Sample Rate                     : 44100
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 16
+[FLAC]          Total Samples                   : 1327104
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 600
+[FLAC]          Picture Height                  : 600
+[FLAC]          Picture Bits Per Pixel          : 24
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 66369
+[FLAC]          Picture                         : (Binary data 66369 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Around the World
+[Vorbis]        Album                           : Homework
+[Vorbis]        Albumartist                     : Daft Punk
+[Vorbis]        Producer                        : Guy-Manuel de Homem Christo
+[Vorbis]        Artist                          : Daft Punk
+[Vorbis]        Composer                        : Guy-Manuel de Homem-Christo
+[Vorbis]        Label                           : Parlophone France
+[Vorbis]        Genre                           : Electronic
+[Vorbis]        Track Number                    : 7
+[Vorbis]        Tracktotal                      : 16
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Copyright                       : Distributed exclusively by Warner Music France / ADA France, © 1997 Daft Life Ltd. Distributed exclusively by Warner Music France / ADA France, ℗ 1996 Daft Life Ltd.
+[Vorbis]        ISRC Number                     : GBDUW0600009
+[Vorbis]        Year                            : 1997
+[Vorbis]        Date                            : 1997-01-16
+[Vorbis]        Media                           : album
+[Composite]     Duration                        : 0:00:30

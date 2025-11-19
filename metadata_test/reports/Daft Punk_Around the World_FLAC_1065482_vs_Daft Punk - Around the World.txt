@@ -1,0 +1,47 @@
+Differences between Daft Punk - Around the World - FLAC - 1065482.txt and Daft Punk - Around the World.txt:
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'File Size' differs:
+  Rust: 3.5 MB
+  C#:   48 MB
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:07:10
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:32+01:00
+  C#:   2025:11:11 11:18:30+01:00
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'Frame Size Max' differs:
+  Rust: 15389
+  C#:   15532
+Field 'Total Samples' differs:
+  Rust: 1327104
+  C#:   18942420
+Field 'File Name' differs:
+  Rust: Daft Punk - Around the World - FLAC - 1065482.flac
+  C#:   Daft Punk - Around the World.flac
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'Media' exists in Rust but not in C#: album
+Field 'Frame Size Min' differs:
+  Rust: 5559
+  C#:   14
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:32+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:32+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'Organization' exists in C# but not in Rust: Parlophone France
+Field 'Upc' exists in C# but not in Rust: 0724384260958
+Field 'Mediatype' exists in C# but not in Rust: album
+Field 'Itunesadvisory' exists in C# but not in Rust: 0
+Field 'Involvedpeople' exists in C# but not in Rust: Daft Punk, MainArtist - Thomas Bangalter, Composer, Producer, Writer - Guy-Manuel de Homem-Christo, Composer, Writer - Guy-Manuel de Homem Christo, Producer
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/homework-daft-punk/0724384260958

@@ -1,0 +1,47 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Madonna - Like a Virgin - FLAC - 6004880.flac
+[System]        Directory                       : metadata_test/downloads/flac
+[System]        File Size                       : 19 MB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:35+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:34+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:35+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 13257
+[FLAC]          Frame Size Max                  : 16781
+[FLAC]          Sample Rate                     : 192000
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 24
+[FLAC]          Total Samples                   : 5760000
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 600
+[FLAC]          Picture Height                  : 600
+[FLAC]          Picture Bits Per Pixel          : 24
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 66560
+[FLAC]          Picture                         : (Binary data 66560 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Like a Virgin
+[Vorbis]        Album                           : Like A Virgin (Hi-Res Version)
+[Vorbis]        Albumartist                     : Madonna
+[Vorbis]        Producer                        : NILE RODGERS
+[Vorbis]        Artist                          : Madonna
+[Vorbis]        Label                           : Sire - Warner Records
+[Vorbis]        Genre                           : Pop
+[Vorbis]        Track Number                    : 3
+[Vorbis]        Tracktotal                      : 9
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Copyright                       : 2012 © 1984 Sire Records Company ℗ 1984 Sire Records
+[Vorbis]        ISRC Number                     : USWB11200454
+[Vorbis]        Year                            : 1984
+[Vorbis]        Date                            : 1984-11-14
+[Vorbis]        Media                           : album
+[Composite]     Duration                        : 0:00:30

@@ -1,0 +1,50 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Madonna - Like a Virgin.mp3
+[System]        Directory                       : metadata_test/downloads/C#-songs/mp3
+[System]        File Size                       : 8.8 MB
+[System]        File Modification Date/Time     : 2025:11:11 11:22:57+01:00
+[System]        File Access Date/Time           : 2025:11:14 13:14:43+01:00
+[System]        File Inode Change Date/Time     : 2025:11:14 13:10:09+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : MP3
+[File]          File Type Extension             : mp3
+[File]          MIME Type                       : audio/mpeg
+[File]          ID3 Size                        : 67618
+[MPEG]          MPEG Audio Version              : 1
+[MPEG]          Audio Layer                     : 3
+[MPEG]          Audio Bitrate                   : 320 kbps
+[MPEG]          Sample Rate                     : 44100
+[MPEG]          Channel Mode                    : Joint Stereo
+[MPEG]          MS Stereo                       : On
+[MPEG]          Intensity Stereo                : Off
+[MPEG]          Copyright Flag                  : False
+[MPEG]          Original Media                  : True
+[MPEG]          Emphasis                        : None
+[MPEG]          Encoder                         : LAME3.99r
+[MPEG]          Lame VBR Quality                : 4
+[MPEG]          Lame Quality                    : 3
+[MPEG]          Lame Method                     : CBR
+[MPEG]          Lame Low Pass Filter            : 20.5 kHz
+[MPEG]          Lame Bitrate                    : 255 kbps
+[MPEG]          Lame Stereo Mode                : Joint Stereo
+[ID3v2_4]       Picture MIME Type               : image/jpeg
+[ID3v2_4]       Picture Type                    : Front Cover
+[ID3v2_4]       Picture Description             : 
+[ID3v2_4]       Picture                         : (Binary data 66560 bytes, use -b option to extract)
+[ID3v2_4]       Title                           : Like a Virgin
+[ID3v2_4]       Album                           : Like A Virgin (Hi-Res Version)
+[ID3v2_4]       Band                            : Madonna
+[ID3v2_4]       Artist                          : Madonna
+[ID3v2_4]       Publisher                       : Sire - Warner Records
+[ID3v2_4]       Involved People                 : Bob Ludwig, Masterer - Billy Steinberg, Writer - TOM KELLY, Writer - NILE RODGERS, Producer, Engineer - BERNARD EDWARDS, Bass - Tony Thompson, Drums - Rob Sabino, Synthesizer - Madonna, Vocals, MainArtist - Jason Corsaro, Mixer - Rob Eaton, Engineer
+[ID3v2_4]       Recording Time                  : 1984
+[ID3v2_4]       Release Time                    : 1984:11:14
+[ID3v2_4]       Genre                           : Pop
+[ID3v2_4]       Part Of Set                     : 1/1
+[ID3v2_4]       Track                           : 3/9
+[ID3v2_4]       Copyright                       : 2012 © 1984 Sire Records Company ℗ 1984 Sire Records
+[ID3v2_4]       ISRC                            : USWB11200454
+[ID3v2_4]       Media                           : album
+[ID3v2_4]       Commercial URL                  : https://www.qobuz.com/fr-fr/album/like-a-virgin-hi-res-version-madonna/0093624951117
+[Composite]     Date/Time Original              : 1984
+[Composite]     Duration                        : 0:03:38 (approx)

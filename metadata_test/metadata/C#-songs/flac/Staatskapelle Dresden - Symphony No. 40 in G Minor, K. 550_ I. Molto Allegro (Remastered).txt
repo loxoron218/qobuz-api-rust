@@ -1,0 +1,52 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Staatskapelle Dresden - Symphony No. 40 in G Minor, K. 550_ I. Molto Allegro (Remastered).flac
+[System]        Directory                       : metadata_test/downloads/C#-songs/flac
+[System]        File Size                       : 160 MB
+[System]        File Modification Date/Time     : 2025:11:11 11:28:27+01:00
+[System]        File Access Date/Time           : 2025:11:14 13:10:06+01:00
+[System]        File Inode Change Date/Time     : 2025:11:14 13:10:05+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 1550
+[FLAC]          Frame Size Max                  : 18483
+[FLAC]          Sample Rate                     : 96000
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 24
+[FLAC]          Total Samples                   : 46929199
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 0
+[FLAC]          Picture Height                  : 0
+[FLAC]          Picture Bits Per Pixel          : 0
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 73603
+[FLAC]          Picture                         : (Binary data 73603 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Symphony No. 40 in G Minor, K. 550: I. Molto Allegro (Remastered)
+[Vorbis]        Album                           : Mozart: Symphony No. 39 & 40
+[Vorbis]        Albumartist                     : Otmar Suitner
+[Vorbis]        Artist                          : Staatskapelle Dresden, Otmar Suitner
+[Vorbis]        Composer                        : Wolfgang Amadeus Mozart
+[Vorbis]        Organization                    : Eterna
+[Vorbis]        Label                           : Eterna
+[Vorbis]        Involvedpeople                  : Wolfgang Amadeus Mozart, Composer - Staatskapelle Dresden, Orchestra, MainArtist - Copyright Control, MusicPublisher - Otmar Suitner, Conductor, MainArtist
+[Vorbis]        Year                            : 1976
+[Vorbis]        Date                            : 1976-10-25
+[Vorbis]        Genre                           : Klassik
+[Vorbis]        Track Number                    : 5
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Tracktotal                      : 8
+[Vorbis]        Copyright                       : 1976 Eterna, a label of Edel Music & Entertainment GmbH 2022 Eterna, a label of Edel Music & Entertainment GmbH
+[Vorbis]        Upc                             : 0885470024561
+[Vorbis]        ISRC Number                     : DES382144605
+[Vorbis]        Mediatype                       : album
+[Vorbis]        Itunesadvisory                  : 0
+[Vorbis]        Url                             : https://www.qobuz.com/fr-fr/album/mozart-symphony-no-39-40-staatskapelle-dresden-otmar-suitner/h00nx1b5bbu1a
+[Composite]     Duration                        : 0:08:09

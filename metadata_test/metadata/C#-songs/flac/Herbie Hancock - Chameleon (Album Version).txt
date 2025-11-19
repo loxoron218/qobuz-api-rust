@@ -1,0 +1,53 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Herbie Hancock - Chameleon (Album Version).flac
+[System]        Directory                       : metadata_test/downloads/C#-songs/flac
+[System]        File Size                       : 330 MB
+[System]        File Modification Date/Time     : 2025:11:11 11:20:52+01:00
+[System]        File Access Date/Time           : 2025:11:14 13:10:06+01:00
+[System]        File Inode Change Date/Time     : 2025:11:14 13:10:05+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 1567
+[FLAC]          Frame Size Max                  : 19749
+[FLAC]          Sample Rate                     : 96000
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 24
+[FLAC]          Total Samples                   : 90683225
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 0
+[FLAC]          Picture Height                  : 0
+[FLAC]          Picture Bits Per Pixel          : 0
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 103739
+[FLAC]          Picture                         : (Binary data 103739 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Chameleon (Album Version)
+[Vorbis]        Album                           : Head Hunters
+[Vorbis]        Albumartist                     : Herbie Hancock
+[Vorbis]        Artist                          : Bennie Maupin, Herbie Hancock
+[Vorbis]        Composer                        : P. Jackson
+[Vorbis]        Organization                    : Columbia - Legacy
+[Vorbis]        Label                           : Columbia - Legacy
+[Vorbis]        Producer                        : David Rubinson
+[Vorbis]        Involvedpeople                  : H. Mason, Composer. - H. Mason, Lyricist. - Bennie Maupin, Performer. - Material, Producer. - Paul Jackson, Acoustic Bass. - Herbie Hancock, Composer. - Herbie Hancock, Lyricist. - Herbie Hancock, Producer. - Herbie Hancock, Keyboards. - Herbie Hancock, Performer. - B. Maupin, Composer. - B. Maupin, Lyricist. - David Rubinson, Producer. - Bill Summers, Percussion. - P. Jackson, Composer. - P. Jackson, Lyricist. - Harvey Mason, Drums.
+[Vorbis]        Year                            : 1973
+[Vorbis]        Date                            : 1973-10-13
+[Vorbis]        Genre                           : Jazz Fusion & Jazzrock
+[Vorbis]        Track Number                    : 1
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Tracktotal                      : 4
+[Vorbis]        Copyright                       : (P) 1973 Columbia Records, a division of Sony Music Entertainment
+[Vorbis]        Upc                             : 0074646512326
+[Vorbis]        ISRC Number                     : USSM17300165
+[Vorbis]        Mediatype                       : album
+[Vorbis]        Itunesadvisory                  : 0
+[Vorbis]        Url                             : https://www.qobuz.com/fr-fr/album/head-hunters-herbie-hancock/0074646512326
+[Composite]     Duration                        : 0:15:45

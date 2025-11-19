@@ -1,0 +1,51 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Adele - Hello.mp3
+[System]        Directory                       : metadata_test/downloads/C#-songs/mp3
+[System]        File Size                       : 12 MB
+[System]        File Modification Date/Time     : 2025:11:11 11:17:36+01:00
+[System]        File Access Date/Time           : 2025:11:14 13:14:42+01:00
+[System]        File Inode Change Date/Time     : 2025:11:14 13:10:09+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : MP3
+[File]          File Type Extension             : mp3
+[File]          MIME Type                       : audio/mpeg
+[File]          ID3 Size                        : 55161
+[MPEG]          MPEG Audio Version              : 1
+[MPEG]          Audio Layer                     : 3
+[MPEG]          Audio Bitrate                   : 320 kbps
+[MPEG]          Sample Rate                     : 44100
+[MPEG]          Channel Mode                    : Joint Stereo
+[MPEG]          MS Stereo                       : On
+[MPEG]          Intensity Stereo                : Off
+[MPEG]          Copyright Flag                  : False
+[MPEG]          Original Media                  : True
+[MPEG]          Emphasis                        : None
+[MPEG]          Encoder                         : LAME3.99r
+[MPEG]          Lame VBR Quality                : 4
+[MPEG]          Lame Quality                    : 3
+[MPEG]          Lame Method                     : CBR
+[MPEG]          Lame Low Pass Filter            : 20.5 kHz
+[MPEG]          Lame Bitrate                    : 255 kbps
+[MPEG]          Lame Stereo Mode                : Joint Stereo
+[ID3v2_4]       Picture MIME Type               : image/jpeg
+[ID3v2_4]       Picture Type                    : Front Cover
+[ID3v2_4]       Picture Description             : 
+[ID3v2_4]       Picture                         : (Binary data 54103 bytes, use -b option to extract)
+[ID3v2_4]       Title                           : Hello
+[ID3v2_4]       Album                           : 25
+[ID3v2_4]       Band                            : Adele
+[ID3v2_4]       Artist                          : Adele
+[ID3v2_4]       Composer                        : Adele
+[ID3v2_4]       Publisher                       : XL Recordings
+[ID3v2_4]       Involved People                 : Adele
+[ID3v2_4]       Recording Time                  : 2015
+[ID3v2_4]       Release Time                    : 2015:11:20
+[ID3v2_4]       Genre                           : Soul
+[ID3v2_4]       Part Of Set                     : 1/1
+[ID3v2_4]       Track                           : 1/11
+[ID3v2_4]       Copyright                       : 2015 XL Recordings Ltd 2015 XL Recordings Ltd
+[ID3v2_4]       ISRC                            : GBBKS1500214
+[ID3v2_4]       Media                           : album
+[ID3v2_4]       Commercial URL                  : https://www.qobuz.com/fr-fr/album/25-adele/0634904074067
+[Composite]     Date/Time Original              : 2015
+[Composite]     Duration                        : 0:04:56 (approx)

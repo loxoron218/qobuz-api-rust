@@ -1,0 +1,44 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Glenn Gould - Aria _ Sarabande (Remastered) - MP3 - 26890072.mp3
+[System]        Directory                       : metadata_test/downloads/mp3
+[System]        File Size                       : 1260 kB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:23+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:23+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:23+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : MP3
+[File]          File Type Extension             : mp3
+[File]          MIME Type                       : audio/mpeg
+[File]          ID3 Size                        : 59536
+[MPEG]          MPEG Audio Version              : 1
+[MPEG]          Audio Layer                     : 3
+[MPEG]          Audio Bitrate                   : 320 kbps
+[MPEG]          Sample Rate                     : 44100
+[MPEG]          Channel Mode                    : Joint Stereo
+[MPEG]          MS Stereo                       : Off
+[MPEG]          Intensity Stereo                : Off
+[MPEG]          Copyright Flag                  : False
+[MPEG]          Original Media                  : True
+[MPEG]          Emphasis                        : None
+[ID3v2_4]       Title                           : Aria : Sarabande (Remastered)
+[ID3v2_4]       Album                           : Bach: The Goldberg Variations (1981) - Gould Remastered
+[ID3v2_4]       Band                            : Glenn Gould
+[ID3v2_4]       Artist                          : Glenn Gould
+[ID3v2_4]       Musician Credits                : Glenn Gould, Piano, Producer - Johann Sebastian Bach, Composer - (Samuel H. Carter, Producer - Stan Tonkel, Recording Engineer - Martin Greenblatt, Recording Engineer - Ray Moore, Recording Engineer - John Johnson, Recording Engineer)
+[ID3v2_4]       Composer                        : Johann Sebastian Bach
+[ID3v2_4]       Publisher                       : Sony Classical
+[ID3v2_4]       Genre                           : Klaviersolo
+[ID3v2_4]       Copyright                       : (P) 1982 Sony Music Entertainment
+[ID3v2_4]       ISRC                            : USSM11409807
+[ID3v2_4]       Recording Time                  : 1982
+[ID3v2_4]       Release Time                    : 1982:09:02
+[ID3v2_4]       Commercial URL                  : https://www.qobuz.com/fr-fr/album/bach-the-goldberg-variations-1981-gould-remastered-glenn-gould/0886445085471
+[ID3v2_4]       Media                           : album
+[ID3v2_4]       Track                           : 1/32
+[ID3v2_4]       Part Of Set                     : 1/1
+[ID3v2_4]       Picture MIME Type               : image/jpeg
+[ID3v2_4]       Picture Type                    : Front Cover
+[ID3v2_4]       Picture Description             : 
+[ID3v2_4]       Picture                         : (Binary data 57736 bytes, use -b option to extract)
+[Composite]     Date/Time Original              : 1982
+[Composite]     Duration                        : 0:00:30 (approx)

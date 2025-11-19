@@ -1,0 +1,34 @@
+Differences between The Beatles - Hey Jude - MP3 - 235803319.txt and The Beatles - Hey Jude (Remastered 2015).txt:
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:17+01:00
+  C#:   2025:11:11 11:30:04+01:00
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:17+01:00
+  C#:   2025:11:14 13:10:09+01:00
+Field 'Duration' differs:
+  Rust: 0:00:30 (approx)
+  C#:   0:07:12 (approx)
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:16+01:00
+  C#:   2025:11:14 13:14:43+01:00
+Field 'ID3 Size' differs:
+  Rust: 96272
+  C#:   95358
+Field 'Musician Credits' exists in Rust but not in C#: Giles Martin, Producer, MixingEngineer - John Lennon, ComposerLyricist - Paul Mccartney, ComposerLyricist - Andrew Walter, RecordingEngineer - Simon Gibson, RecordingEngineer - George Martin, Producer - Miles Showell, MasteringEngineer - James Clarke, RecordingEngineer - Sam Okell, MixingEngineer - The Beatles, MainArtist - Matt Mysko, MixingSecondEngineer - Al Sirkett, SoundDesigner
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/mp3
+  C#:   metadata_test/downloads/C#-songs/mp3
+Field 'File Name' differs:
+  Rust: The Beatles - Hey Jude - MP3 - 235803319.mp3
+  C#:   The Beatles - Hey Jude (Remastered 2015).mp3
+Field 'File Size' differs:
+  Rust: 1297 kB
+  C#:   17 MB
+Field 'Lame Quality' exists in C# but not in Rust: 3
+Field 'Encoder' exists in C# but not in Rust: LAME3.99r
+Field 'Lame Bitrate' exists in C# but not in Rust: 255 kbps
+Field 'Lame VBR Quality' exists in C# but not in Rust: 4
+Field 'Lame Stereo Mode' exists in C# but not in Rust: Joint Stereo
+Field 'Involved People' exists in C# but not in Rust: Giles Martin, Producer, MixingEngineer - John Lennon, ComposerLyricist - Paul Mccartney, ComposerLyricist - Andrew Walter, RecordingEngineer - Simon Gibson, RecordingEngineer - George Martin, Producer - Miles Showell, MasteringEngineer - James Clarke, RecordingEngineer - Sam Okell, MixingEngineer - The Beatles, MainArtist - Matt Mysko, MixingSecondEngineer - Al Sirkett, SoundDesigner
+Field 'Lame Low Pass Filter' exists in C# but not in Rust: 20.5 kHz
+Field 'Lame Method' exists in C# but not in Rust: CBR

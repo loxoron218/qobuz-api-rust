@@ -1,0 +1,48 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Glenn Gould - Aria _ Sarabande (Remastered) - FLAC - 26890072.flac
+[System]        Directory                       : metadata_test/downloads/flac
+[System]        File Size                       : 4.3 MB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:24+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:24+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:24+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 14231
+[FLAC]          Frame Size Max                  : 16704
+[FLAC]          Sample Rate                     : 44100
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 24
+[FLAC]          Total Samples                   : 1327104
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 600
+[FLAC]          Picture Height                  : 600
+[FLAC]          Picture Bits Per Pixel          : 24
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 57736
+[FLAC]          Picture                         : (Binary data 57736 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Aria : Sarabande (Remastered)
+[Vorbis]        Album                           : Bach: The Goldberg Variations (1981) - Gould Remastered
+[Vorbis]        Albumartist                     : Glenn Gould
+[Vorbis]        Producer                        : (Samuel H. Carter
+[Vorbis]        Artist                          : Glenn Gould
+[Vorbis]        Composer                        : Johann Sebastian Bach
+[Vorbis]        Label                           : Sony Classical
+[Vorbis]        Genre                           : Klaviersolo
+[Vorbis]        Track Number                    : 1
+[Vorbis]        Tracktotal                      : 32
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Copyright                       : (P) 1982 Sony Music Entertainment
+[Vorbis]        ISRC Number                     : USSM11409807
+[Vorbis]        Year                            : 1982
+[Vorbis]        Date                            : 1982-09-02
+[Vorbis]        Media                           : album
+[Composite]     Duration                        : 0:00:30

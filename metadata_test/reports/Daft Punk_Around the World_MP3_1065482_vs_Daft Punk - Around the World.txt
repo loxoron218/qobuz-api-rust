@@ -1,0 +1,34 @@
+Differences between Daft Punk - Around the World - MP3 - 1065482.txt and Daft Punk - Around the World.txt:
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/mp3
+  C#:   metadata_test/downloads/C#-songs/mp3
+Field 'ID3 Size' differs:
+  Rust: 68143
+  C#:   67427
+Field 'File Size' differs:
+  Rust: 1269 kB
+  C#:   17 MB
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:31+01:00
+  C#:   2025:11:11 11:18:40+01:00
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:31+01:00
+  C#:   2025:11:14 13:14:42+01:00
+Field 'File Name' differs:
+  Rust: Daft Punk - Around the World - MP3 - 1065482.mp3
+  C#:   Daft Punk - Around the World.mp3
+Field 'Musician Credits' exists in Rust but not in C#: Daft Punk, MainArtist - Thomas Bangalter, Composer, Producer, Writer - Guy-Manuel de Homem-Christo, Composer, Writer - Guy-Manuel de Homem Christo, Producer
+Field 'Duration' differs:
+  Rust: 0:00:30 (approx)
+  C#:   0:07:10 (approx)
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:31+01:00
+  C#:   2025:11:14 13:10:09+01:00
+Field 'Encoder' exists in C# but not in Rust: LAME3.98r
+Field 'Lame Method' exists in C# but not in Rust: CBR
+Field 'Lame VBR Quality' exists in C# but not in Rust: 4
+Field 'Lame Low Pass Filter' exists in C# but not in Rust: 20.5 kHz
+Field 'Lame Stereo Mode' exists in C# but not in Rust: Joint Stereo
+Field 'Lame Quality' exists in C# but not in Rust: 3
+Field 'Lame Bitrate' exists in C# but not in Rust: 255 kbps
+Field 'Involved People' exists in C# but not in Rust: Daft Punk, MainArtist - Thomas Bangalter, Composer, Producer, Writer - Guy-Manuel de Homem-Christo, Composer, Writer - Guy-Manuel de Homem Christo, Producer

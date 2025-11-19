@@ -1,0 +1,48 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Nirvana - Smells Like Teen Spirit - FLAC - 14158543.flac
+[System]        Directory                       : metadata_test/downloads/flac
+[System]        File Size                       : 12 MB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:20+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:20+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:20+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 18307
+[FLAC]          Frame Size Max                  : 21171
+[FLAC]          Sample Rate                     : 96000
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 24
+[FLAC]          Total Samples                   : 2880000
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 600
+[FLAC]          Picture Height                  : 600
+[FLAC]          Picture Bits Per Pixel          : 24
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 79353
+[FLAC]          Picture                         : (Binary data 79353 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Smells Like Teen Spirit (Album Version)
+[Vorbis]        Album                           : Nevermind
+[Vorbis]        Albumartist                     : Nirvana
+[Vorbis]        Producer                        : Butch Vig
+[Vorbis]        Artist                          : Nirvana
+[Vorbis]        Composer                        : Dave Grohl
+[Vorbis]        Label                           : Geffen
+[Vorbis]        Genre                           : Rock
+[Vorbis]        Track Number                    : 1
+[Vorbis]        Tracktotal                      : 13
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Copyright                       : ℗ 1991 UMG Recordings, Inc.
+[Vorbis]        ISRC Number                     : USGF19942501
+[Vorbis]        Year                            : 1991
+[Vorbis]        Date                            : 1991-09-24
+[Vorbis]        Media                           : album
+[Composite]     Duration                        : 0:00:30

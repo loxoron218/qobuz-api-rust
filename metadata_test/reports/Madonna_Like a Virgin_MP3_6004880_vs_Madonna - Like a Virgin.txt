@@ -1,0 +1,34 @@
+Differences between Madonna - Like a Virgin - MP3 - 6004880.txt and Madonna - Like a Virgin.txt:
+Field 'File Name' differs:
+  Rust: Madonna - Like a Virgin - MP3 - 6004880.mp3
+  C#:   Madonna - Like a Virgin.mp3
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:33+01:00
+  C#:   2025:11:11 11:22:57+01:00
+Field 'File Size' differs:
+  Rust: 1269 kB
+  C#:   8.8 MB
+Field 'Musician Credits' exists in Rust but not in C#: Bob Ludwig, Masterer - Billy Steinberg, Writer - TOM KELLY, Writer - NILE RODGERS, Producer, Engineer - BERNARD EDWARDS, Bass - Tony Thompson, Drums - Rob Sabino, Synthesizer - Madonna, Vocals, MainArtist - Jason Corsaro, Mixer - Rob Eaton, Engineer
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/mp3
+  C#:   metadata_test/downloads/C#-songs/mp3
+Field 'ID3 Size' differs:
+  Rust: 68288
+  C#:   67618
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:33+01:00
+  C#:   2025:11:14 13:14:43+01:00
+Field 'Duration' differs:
+  Rust: 0:00:30 (approx)
+  C#:   0:03:38 (approx)
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:33+01:00
+  C#:   2025:11:14 13:10:09+01:00
+Field 'Lame Method' exists in C# but not in Rust: CBR
+Field 'Lame VBR Quality' exists in C# but not in Rust: 4
+Field 'Involved People' exists in C# but not in Rust: Bob Ludwig, Masterer - Billy Steinberg, Writer - TOM KELLY, Writer - NILE RODGERS, Producer, Engineer - BERNARD EDWARDS, Bass - Tony Thompson, Drums - Rob Sabino, Synthesizer - Madonna, Vocals, MainArtist - Jason Corsaro, Mixer - Rob Eaton, Engineer
+Field 'Lame Quality' exists in C# but not in Rust: 3
+Field 'Lame Bitrate' exists in C# but not in Rust: 255 kbps
+Field 'Lame Low Pass Filter' exists in C# but not in Rust: 20.5 kHz
+Field 'Encoder' exists in C# but not in Rust: LAME3.99r
+Field 'Lame Stereo Mode' exists in C# but not in Rust: Joint Stereo

@@ -1,0 +1,47 @@
+Differences between Glenn Gould - Aria _ Sarabande (Remastered) - FLAC - 26890072.txt and Glenn Gould - Aria _ Sarabande (Remastered).txt:
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:24+01:00
+  C#:   2025:11:11 11:19:06+01:00
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:03:05
+Field 'Frame Size Max' differs:
+  Rust: 16704
+  C#:   17126
+Field 'Total Samples' differs:
+  Rust: 1327104
+  C#:   8151644
+Field 'File Size' differs:
+  Rust: 4.3 MB
+  C#:   26 MB
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'File Name' differs:
+  Rust: Glenn Gould - Aria _ Sarabande (Remastered) - FLAC - 26890072.flac
+  C#:   Glenn Gould - Aria _ Sarabande (Remastered).flac
+Field 'Media' exists in Rust but not in C#: album
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:24+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:24+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'Frame Size Min' differs:
+  Rust: 14231
+  C#:   302
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/bach-the-goldberg-variations-1981-gould-remastered-glenn-gould/0886445085471
+Field 'Upc' exists in C# but not in Rust: 0886445085471
+Field 'Involvedpeople' exists in C# but not in Rust: Glenn Gould, Piano, Producer - Johann Sebastian Bach, Composer - (Samuel H. Carter, Producer - Stan Tonkel, Recording Engineer - Martin Greenblatt, Recording Engineer - Ray Moore, Recording Engineer - John Johnson, Recording Engineer)
+Field 'Itunesadvisory' exists in C# but not in Rust: 0
+Field 'Mediatype' exists in C# but not in Rust: album
+Field 'Organization' exists in C# but not in Rust: Sony Classical

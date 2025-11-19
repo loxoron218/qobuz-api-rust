@@ -1,0 +1,53 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Miles Davis - So What.flac
+[System]        Directory                       : metadata_test/downloads/C#-songs/flac
+[System]        File Size                       : 328 MB
+[System]        File Modification Date/Time     : 2025:11:11 11:25:27+01:00
+[System]        File Access Date/Time           : 2025:11:14 13:10:06+01:00
+[System]        File Inode Change Date/Time     : 2025:11:14 13:10:05+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 1305
+[FLAC]          Frame Size Max                  : 16950
+[FLAC]          Sample Rate                     : 192000
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 24
+[FLAC]          Total Samples                   : 105212768
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 0
+[FLAC]          Picture Height                  : 0
+[FLAC]          Picture Bits Per Pixel          : 0
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 45511
+[FLAC]          Picture                         : (Binary data 45511 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : So What
+[Vorbis]        Album                           : Kind Of Blue
+[Vorbis]        Albumartist                     : Miles Davis
+[Vorbis]        Artist                          : Miles Davis
+[Vorbis]        Composer                        : M. Davis
+[Vorbis]        Organization                    : Columbia
+[Vorbis]        Label                           : Columbia
+[Vorbis]        Producer                        : Irving Townsend
+[Vorbis]        Involvedpeople                  : Miles Davis, Associated Performer, Main Artist, Trumpet, Associated Performer, Trumpet. - Irving Townsend, Producer. - Jimmy Cobb, Drums. - M. Davis, Composer, Lyricist. - Bill Evans, Piano. - Paul Chambers, Bass. - Julian "Cannonball" Adderley, Alto Saxophone. - John Coltrane, Tenor Saxophone
+[Vorbis]        Year                            : 1959
+[Vorbis]        Date                            : 1959-08-17
+[Vorbis]        Genre                           : Jazz
+[Vorbis]        Track Number                    : 1
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Tracktotal                      : 5
+[Vorbis]        Copyright                       : Originally released 1959. All rights reserved by Columbia Records, a division of Sony Music Entertainment
+[Vorbis]        Upc                             : 5099749522428
+[Vorbis]        ISRC Number                     : USSM15900113
+[Vorbis]        Mediatype                       : album
+[Vorbis]        Itunesadvisory                  : 0
+[Vorbis]        Url                             : https://www.qobuz.com/fr-fr/album/kind-of-blue-miles-davis/5099749522428
+[Composite]     Duration                        : 0:09:08

@@ -1,0 +1,47 @@
+Differences between Miles Davis - So What - FLAC - 13176083.txt and Miles Davis - So What.txt:
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'Frame Size Min' differs:
+  Rust: 13357
+  C#:   1305
+Field 'File Size' differs:
+  Rust: 19 MB
+  C#:   328 MB
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:27+01:00
+  C#:   2025:11:11 11:25:27+01:00
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:27+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'Total Samples' differs:
+  Rust: 5760000
+  C#:   105212768
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:09:08
+Field 'Frame Size Max' differs:
+  Rust: 16454
+  C#:   16950
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'File Name' differs:
+  Rust: Miles Davis - So What - FLAC - 13176083.flac
+  C#:   Miles Davis - So What.flac
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:27+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'Media' exists in Rust but not in C#: album
+Field 'Itunesadvisory' exists in C# but not in Rust: 0
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/kind-of-blue-miles-davis/5099749522428
+Field 'Involvedpeople' exists in C# but not in Rust: Miles Davis, Associated Performer, Main Artist, Trumpet, Associated Performer, Trumpet. - Irving Townsend, Producer. - Jimmy Cobb, Drums. - M. Davis, Composer, Lyricist. - Bill Evans, Piano. - Paul Chambers, Bass. - Julian "Cannonball" Adderley, Alto Saxophone. - John Coltrane, Tenor Saxophone
+Field 'Upc' exists in C# but not in Rust: 5099749522428
+Field 'Mediatype' exists in C# but not in Rust: album
+Field 'Organization' exists in C# but not in Rust: Columbia

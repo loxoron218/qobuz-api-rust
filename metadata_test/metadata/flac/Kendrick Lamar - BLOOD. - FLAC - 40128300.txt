@@ -1,0 +1,48 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Kendrick Lamar - BLOOD. - FLAC - 40128300.flac
+[System]        Directory                       : metadata_test/downloads/flac
+[System]        File Size                       : 2.6 MB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:16+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:15+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:16+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 7486
+[FLAC]          Frame Size Max                  : 10972
+[FLAC]          Sample Rate                     : 44100
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 16
+[FLAC]          Total Samples                   : 1327104
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 600
+[FLAC]          Picture Height                  : 600
+[FLAC]          Picture Bits Per Pixel          : 24
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 64311
+[FLAC]          Picture                         : (Binary data 64311 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : BLOOD.
+[Vorbis]        Album                           : DAMN.
+[Vorbis]        Albumartist                     : Kendrick Lamar
+[Vorbis]        Producer                        : Anthony 'Top Dawg' Tiffith
+[Vorbis]        Artist                          : Kendrick Lamar
+[Vorbis]        Composer                        : D. Tanenbaum
+[Vorbis]        Label                           : Aftermath
+[Vorbis]        Genre                           : Hip-Hop/Rap
+[Vorbis]        Track Number                    : 1
+[Vorbis]        Tracktotal                      : 14
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Copyright                       : ℗ 2017 Aftermath/Interscope (Top Dawg Entertainment)
+[Vorbis]        ISRC Number                     : USUM71703078
+[Vorbis]        Year                            : 2017
+[Vorbis]        Date                            : 2017-04-14
+[Vorbis]        Media                           : album
+[Composite]     Duration                        : 0:00:30

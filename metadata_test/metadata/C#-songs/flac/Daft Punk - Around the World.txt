@@ -1,0 +1,53 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Daft Punk - Around the World.flac
+[System]        Directory                       : metadata_test/downloads/C#-songs/flac
+[System]        File Size                       : 48 MB
+[System]        File Modification Date/Time     : 2025:11:11 11:18:30+01:00
+[System]        File Access Date/Time           : 2025:11:14 13:10:06+01:00
+[System]        File Inode Change Date/Time     : 2025:11:14 13:10:05+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 14
+[FLAC]          Frame Size Max                  : 15532
+[FLAC]          Sample Rate                     : 44100
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 16
+[FLAC]          Total Samples                   : 18942420
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 0
+[FLAC]          Picture Height                  : 0
+[FLAC]          Picture Bits Per Pixel          : 0
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 66369
+[FLAC]          Picture                         : (Binary data 66369 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Around the World
+[Vorbis]        Album                           : Homework
+[Vorbis]        Albumartist                     : Daft Punk
+[Vorbis]        Artist                          : Daft Punk
+[Vorbis]        Composer                        : Guy-Manuel de Homem-Christo
+[Vorbis]        Organization                    : Parlophone France
+[Vorbis]        Label                           : Parlophone France
+[Vorbis]        Producer                        : Guy-Manuel de Homem Christo
+[Vorbis]        Involvedpeople                  : Daft Punk, MainArtist - Thomas Bangalter, Composer, Producer, Writer - Guy-Manuel de Homem-Christo, Composer, Writer - Guy-Manuel de Homem Christo, Producer
+[Vorbis]        Year                            : 1997
+[Vorbis]        Date                            : 1997-01-16
+[Vorbis]        Genre                           : Electronic
+[Vorbis]        Track Number                    : 7
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Tracktotal                      : 16
+[Vorbis]        Copyright                       : Distributed exclusively by Warner Music France / ADA France, © 1997 Daft Life Ltd. Distributed exclusively by Warner Music France / ADA France, ℗ 1996 Daft Life Ltd.
+[Vorbis]        Upc                             : 0724384260958
+[Vorbis]        ISRC Number                     : GBDUW0600009
+[Vorbis]        Mediatype                       : album
+[Vorbis]        Itunesadvisory                  : 0
+[Vorbis]        Url                             : https://www.qobuz.com/fr-fr/album/homework-daft-punk/0724384260958
+[Composite]     Duration                        : 0:07:10

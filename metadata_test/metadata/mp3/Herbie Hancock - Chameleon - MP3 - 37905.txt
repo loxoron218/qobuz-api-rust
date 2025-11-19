@@ -1,0 +1,44 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Herbie Hancock - Chameleon - MP3 - 37905.mp3
+[System]        Directory                       : metadata_test/downloads/mp3
+[System]        File Size                       : 1306 kB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:29+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:29+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:29+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : MP3
+[File]          File Type Extension             : mp3
+[File]          MIME Type                       : audio/mpeg
+[File]          ID3 Size                        : 105748
+[MPEG]          MPEG Audio Version              : 1
+[MPEG]          Audio Layer                     : 3
+[MPEG]          Audio Bitrate                   : 320 kbps
+[MPEG]          Sample Rate                     : 44100
+[MPEG]          Channel Mode                    : Joint Stereo
+[MPEG]          MS Stereo                       : Off
+[MPEG]          Intensity Stereo                : Off
+[MPEG]          Copyright Flag                  : False
+[MPEG]          Original Media                  : True
+[MPEG]          Emphasis                        : None
+[ID3v2_4]       Title                           : Chameleon (Album Version)
+[ID3v2_4]       Album                           : Head Hunters
+[ID3v2_4]       Band                            : Herbie Hancock
+[ID3v2_4]       Artist                          : Bennie Maupin/Herbie Hancock
+[ID3v2_4]       Musician Credits                : H. Mason, Composer. - H. Mason, Lyricist. - Bennie Maupin, Performer. - Material, Producer. - Paul Jackson, Acoustic Bass. - Herbie Hancock, Composer. - Herbie Hancock, Lyricist. - Herbie Hancock, Producer. - Herbie Hancock, Keyboards. - Herbie Hancock, Performer. - B. Maupin, Composer. - B. Maupin, Lyricist. - David Rubinson, Producer. - Bill Summers, Percussion. - P. Jackson, Composer. - P. Jackson, Lyricist. - Harvey Mason, Drums.
+[ID3v2_4]       Composer                        : H. Mason/Herbie Hancock/B. Maupin/P. Jackson
+[ID3v2_4]       Publisher                       : Columbia - Legacy
+[ID3v2_4]       Genre                           : Jazz Fusion & Jazzrock
+[ID3v2_4]       Copyright                       : (P) 1973 Columbia Records, a division of Sony Music Entertainment
+[ID3v2_4]       ISRC                            : USSM17300165
+[ID3v2_4]       Recording Time                  : 1973
+[ID3v2_4]       Release Time                    : 1973:10:13
+[ID3v2_4]       Commercial URL                  : https://www.qobuz.com/fr-fr/album/head-hunters-herbie-hancock/0074646512326
+[ID3v2_4]       Media                           : album
+[ID3v2_4]       Track                           : 1/4
+[ID3v2_4]       Part Of Set                     : 1/1
+[ID3v2_4]       Picture MIME Type               : image/jpeg
+[ID3v2_4]       Picture Type                    : Front Cover
+[ID3v2_4]       Picture Description             : 
+[ID3v2_4]       Picture                         : (Binary data 103739 bytes, use -b option to extract)
+[Composite]     Date/Time Original              : 1973
+[Composite]     Duration                        : 0:00:30 (approx)

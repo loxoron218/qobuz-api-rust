@@ -1,0 +1,43 @@
+[package]
+authors = ["loxoron218 <175253954+loxoron218@users.noreply.github.com>"]
+categories = ["api-bindings", "multimedia"]
+description = "A Rust client library for the Qobuz music streaming API"
+documentation = "https://docs.rs/qobuz-api-rust"
+edition = "2024"
+homepage = "https://github.com/loxoron218/qobuz-api-rust"
+keywords = ["api", "client", "music", "qobuz", "streaming"]
+license = "GPL-3.0-or-later"
+name = "qobuz-api-rust"
+readme = "README.md"
+repository = "https://github.com/loxoron218/qobuz-api-rust"
+version = "0.1.0"
+
+[dependencies]
+base64 = "0.22.1"
+dotenvy = "0.15.7"
+lofty = "0.22.4"
+md5 = "0.8.0"
+regex = "1.12.2"
+reqwest = { version = "0.12.24", features = ["blocking", "json", "stream"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+thiserror = "2.0.17"
+tokio = { version = "1.48.0", features = ["full"] }
+tokio-stream = "0.1.17"
+url = "2.5.7"
+
+[[bin]]
+name = "compare-metadata"
+path = "metadata_test/scripts/compare_metadata.rs"
+
+[[bin]]
+name = "download-tracks"
+path = "metadata_test/scripts/download_tracks.rs"
+
+[[bin]]
+name = "generate-report"
+path = "metadata_test/scripts/generate_report.rs"
+
+[[bin]]
+name = "run-extraction"
+path = "metadata_test/scripts/run_extraction.rs"

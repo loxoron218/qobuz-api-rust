@@ -1,0 +1,44 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Daft Punk - Around the World - MP3 - 1065482.mp3
+[System]        Directory                       : metadata_test/downloads/mp3
+[System]        File Size                       : 1269 kB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:31+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:31+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:31+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : MP3
+[File]          File Type Extension             : mp3
+[File]          MIME Type                       : audio/mpeg
+[File]          ID3 Size                        : 68143
+[MPEG]          MPEG Audio Version              : 1
+[MPEG]          Audio Layer                     : 3
+[MPEG]          Audio Bitrate                   : 320 kbps
+[MPEG]          Sample Rate                     : 44100
+[MPEG]          Channel Mode                    : Joint Stereo
+[MPEG]          MS Stereo                       : On
+[MPEG]          Intensity Stereo                : Off
+[MPEG]          Copyright Flag                  : False
+[MPEG]          Original Media                  : True
+[MPEG]          Emphasis                        : None
+[ID3v2_4]       Title                           : Around the World
+[ID3v2_4]       Album                           : Homework
+[ID3v2_4]       Band                            : Daft Punk
+[ID3v2_4]       Artist                          : Daft Punk
+[ID3v2_4]       Musician Credits                : Daft Punk, MainArtist - Thomas Bangalter, Composer, Producer, Writer - Guy-Manuel de Homem-Christo, Composer, Writer - Guy-Manuel de Homem Christo, Producer
+[ID3v2_4]       Composer                        : Thomas Bangalter/Guy-Manuel de Homem-Christo
+[ID3v2_4]       Publisher                       : Parlophone France
+[ID3v2_4]       Genre                           : Electronic
+[ID3v2_4]       Copyright                       : Distributed exclusively by Warner Music France / ADA France, © 1997 Daft Life Ltd. Distributed exclusively by Warner Music France / ADA France, ℗ 1996 Daft Life Ltd.
+[ID3v2_4]       ISRC                            : GBDUW0600009
+[ID3v2_4]       Recording Time                  : 1997
+[ID3v2_4]       Release Time                    : 1997:01:16
+[ID3v2_4]       Commercial URL                  : https://www.qobuz.com/fr-fr/album/homework-daft-punk/0724384260958
+[ID3v2_4]       Media                           : album
+[ID3v2_4]       Track                           : 7/16
+[ID3v2_4]       Part Of Set                     : 1/1
+[ID3v2_4]       Picture MIME Type               : image/jpeg
+[ID3v2_4]       Picture Type                    : Front Cover
+[ID3v2_4]       Picture Description             : 
+[ID3v2_4]       Picture                         : (Binary data 66369 bytes, use -b option to extract)
+[Composite]     Date/Time Original              : 1997
+[Composite]     Duration                        : 0:00:30 (approx)

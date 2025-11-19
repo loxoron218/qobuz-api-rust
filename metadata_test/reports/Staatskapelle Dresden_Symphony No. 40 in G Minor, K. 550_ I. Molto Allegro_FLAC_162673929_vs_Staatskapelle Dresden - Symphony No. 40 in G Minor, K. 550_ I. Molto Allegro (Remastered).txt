@@ -1,0 +1,47 @@
+Differences between Staatskapelle Dresden - Symphony No. 40 in G Minor, K. 550_ I. Molto Allegro - FLAC - 162673929.txt and Staatskapelle Dresden - Symphony No. 40 in G Minor, K. 550_ I. Molto Allegro (Remastered).txt:
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:22+01:00
+  C#:   2025:11:11 11:28:27+01:00
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:08:09
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'File Name' differs:
+  Rust: Staatskapelle Dresden - Symphony No. 40 in G Minor, K. 550_ I. Molto Allegro - FLAC - 162673929.flac
+  C#:   Staatskapelle Dresden - Symphony No. 40 in G Minor, K. 550_ I. Molto Allegro (Remastered).flac
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'Frame Size Max' differs:
+  Rust: 18356
+  C#:   18483
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:22+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'File Size' differs:
+  Rust: 10.0 MB
+  C#:   160 MB
+Field 'Total Samples' differs:
+  Rust: 2880000
+  C#:   46929199
+Field 'Media' exists in Rust but not in C#: album
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:22+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'Frame Size Min' differs:
+  Rust: 13938
+  C#:   1550
+Field 'Involvedpeople' exists in C# but not in Rust: Wolfgang Amadeus Mozart, Composer - Staatskapelle Dresden, Orchestra, MainArtist - Copyright Control, MusicPublisher - Otmar Suitner, Conductor, MainArtist
+Field 'Itunesadvisory' exists in C# but not in Rust: 0
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/mozart-symphony-no-39-40-staatskapelle-dresden-otmar-suitner/h00nx1b5bbu1a
+Field 'Upc' exists in C# but not in Rust: 0885470024561
+Field 'Mediatype' exists in C# but not in Rust: album
+Field 'Organization' exists in C# but not in Rust: Eterna

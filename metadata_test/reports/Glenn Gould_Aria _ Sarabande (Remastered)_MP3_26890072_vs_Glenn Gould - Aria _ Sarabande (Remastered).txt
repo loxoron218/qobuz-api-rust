@@ -1,0 +1,37 @@
+Differences between Glenn Gould - Aria _ Sarabande (Remastered) - MP3 - 26890072.txt and Glenn Gould - Aria _ Sarabande (Remastered).txt:
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:23+01:00
+  C#:   2025:11:14 13:10:09+01:00
+Field 'ID3 Size' differs:
+  Rust: 59536
+  C#:   58794
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:23+01:00
+  C#:   2025:11:14 13:14:43+01:00
+Field 'File Size' differs:
+  Rust: 1260 kB
+  C#:   7.5 MB
+Field 'Musician Credits' exists in Rust but not in C#: Glenn Gould, Piano, Producer - Johann Sebastian Bach, Composer - (Samuel H. Carter, Producer - Stan Tonkel, Recording Engineer - Martin Greenblatt, Recording Engineer - Ray Moore, Recording Engineer - John Johnson, Recording Engineer)
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/mp3
+  C#:   metadata_test/downloads/C#-songs/mp3
+Field 'MS Stereo' differs:
+  Rust: Off
+  C#:   On
+Field 'Duration' differs:
+  Rust: 0:00:30 (approx)
+  C#:   0:03:05 (approx)
+Field 'File Name' differs:
+  Rust: Glenn Gould - Aria _ Sarabande (Remastered) - MP3 - 26890072.mp3
+  C#:   Glenn Gould - Aria _ Sarabande (Remastered).mp3
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:23+01:00
+  C#:   2025:11:11 11:18:51+01:00
+Field 'Lame Method' exists in C# but not in Rust: CBR
+Field 'Lame VBR Quality' exists in C# but not in Rust: 4
+Field 'Lame Quality' exists in C# but not in Rust: 3
+Field 'Lame Low Pass Filter' exists in C# but not in Rust: 20.5 kHz
+Field 'Lame Bitrate' exists in C# but not in Rust: 255 kbps
+Field 'Involved People' exists in C# but not in Rust: Glenn Gould, Piano, Producer - Johann Sebastian Bach, Composer - (Samuel H. Carter, Producer - Stan Tonkel, Recording Engineer - Martin Greenblatt, Recording Engineer - Ray Moore, Recording Engineer - John Johnson, Recording Engineer)
+Field 'Encoder' exists in C# but not in Rust: LAME3.99r
+Field 'Lame Stereo Mode' exists in C# but not in Rust: Joint Stereo

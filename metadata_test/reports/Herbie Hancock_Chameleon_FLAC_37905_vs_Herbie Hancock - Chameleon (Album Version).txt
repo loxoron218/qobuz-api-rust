@@ -1,0 +1,47 @@
+Differences between Herbie Hancock - Chameleon - FLAC - 37905.txt and Herbie Hancock - Chameleon (Album Version).txt:
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'Media' exists in Rust but not in C#: album
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:30+01:00
+  C#:   2025:11:11 11:20:52+01:00
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'File Name' differs:
+  Rust: Herbie Hancock - Chameleon - FLAC - 37905.flac
+  C#:   Herbie Hancock - Chameleon (Album Version).flac
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'Total Samples' differs:
+  Rust: 2880000
+  C#:   90683225
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:15:45
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:30+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'File Size' differs:
+  Rust: 11 MB
+  C#:   330 MB
+Field 'Frame Size Min' differs:
+  Rust: 14377
+  C#:   1567
+Field 'Frame Size Max' differs:
+  Rust: 19307
+  C#:   19749
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:30+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'Upc' exists in C# but not in Rust: 0074646512326
+Field 'Itunesadvisory' exists in C# but not in Rust: 0
+Field 'Organization' exists in C# but not in Rust: Columbia - Legacy
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/head-hunters-herbie-hancock/0074646512326
+Field 'Mediatype' exists in C# but not in Rust: album
+Field 'Involvedpeople' exists in C# but not in Rust: H. Mason, Composer. - H. Mason, Lyricist. - Bennie Maupin, Performer. - Material, Producer. - Paul Jackson, Acoustic Bass. - Herbie Hancock, Composer. - Herbie Hancock, Lyricist. - Herbie Hancock, Producer. - Herbie Hancock, Keyboards. - Herbie Hancock, Performer. - B. Maupin, Composer. - B. Maupin, Lyricist. - David Rubinson, Producer. - Bill Summers, Percussion. - P. Jackson, Composer. - P. Jackson, Lyricist. - Harvey Mason, Drums.

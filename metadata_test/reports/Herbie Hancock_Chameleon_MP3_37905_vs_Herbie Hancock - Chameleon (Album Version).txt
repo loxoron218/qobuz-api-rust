@@ -1,0 +1,37 @@
+Differences between Herbie Hancock - Chameleon - MP3 - 37905.txt and Herbie Hancock - Chameleon (Album Version).txt:
+Field 'ID3 Size' differs:
+  Rust: 105748
+  C#:   104797
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:29+01:00
+  C#:   2025:11:11 11:21:26+01:00
+Field 'Musician Credits' exists in Rust but not in C#: H. Mason, Composer. - H. Mason, Lyricist. - Bennie Maupin, Performer. - Material, Producer. - Paul Jackson, Acoustic Bass. - Herbie Hancock, Composer. - Herbie Hancock, Lyricist. - Herbie Hancock, Producer. - Herbie Hancock, Keyboards. - Herbie Hancock, Performer. - B. Maupin, Composer. - B. Maupin, Lyricist. - David Rubinson, Producer. - Bill Summers, Percussion. - P. Jackson, Composer. - P. Jackson, Lyricist. - Harvey Mason, Drums.
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:29+01:00
+  C#:   2025:11:14 13:10:09+01:00
+Field 'MS Stereo' differs:
+  Rust: Off
+  C#:   On
+Field 'File Name' differs:
+  Rust: Herbie Hancock - Chameleon - MP3 - 37905.mp3
+  C#:   Herbie Hancock - Chameleon (Album Version).mp3
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/mp3
+  C#:   metadata_test/downloads/C#-songs/mp3
+Field 'Duration' differs:
+  Rust: 0:00:30 (approx)
+  C#:   0:15:45 (approx)
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:29+01:00
+  C#:   2025:11:14 13:14:43+01:00
+Field 'File Size' differs:
+  Rust: 1306 kB
+  C#:   38 MB
+Field 'Encoder' exists in C# but not in Rust: LAME3.99r
+Field 'Lame VBR Quality' exists in C# but not in Rust: 4
+Field 'Lame Bitrate' exists in C# but not in Rust: 255 kbps
+Field 'Lame Low Pass Filter' exists in C# but not in Rust: 20.5 kHz
+Field 'Lame Quality' exists in C# but not in Rust: 3
+Field 'Involved People' exists in C# but not in Rust: H. Mason, Composer. - H. Mason, Lyricist. - Bennie Maupin, Performer. - Material, Producer. - Paul Jackson, Acoustic Bass. - Herbie Hancock, Composer. - Herbie Hancock, Lyricist. - Herbie Hancock, Producer. - Herbie Hancock, Keyboards. - Herbie Hancock, Performer. - B. Maupin, Composer. - B. Maupin, Lyricist. - David Rubinson, Producer. - Bill Summers, Percussion. - P. Jackson, Composer. - P. Jackson, Lyricist. - Harvey Mason, Drums.
+Field 'Lame Method' exists in C# but not in Rust: CBR
+Field 'Lame Stereo Mode' exists in C# but not in Rust: Joint Stereo

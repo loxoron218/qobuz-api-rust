@@ -1,0 +1,47 @@
+Differences between Adele - Hello - FLAC - 28014963.txt and Adele - Hello.txt:
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:36+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'File Size' differs:
+  Rust: 3.0 MB
+  C#:   29 MB
+Field 'Frame Size Max' differs:
+  Rust: 12043
+  C#:   14335
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:04:56
+Field 'Total Samples' differs:
+  Rust: 1327104
+  C#:   13031647
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:36+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'File Name' differs:
+  Rust: Adele - Hello - FLAC - 28014963.flac
+  C#:   Adele - Hello.flac
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:36+01:00
+  C#:   2025:11:11 11:17:59+01:00
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'Frame Size Min' differs:
+  Rust: 6731
+  C#:   14
+Field 'Media' exists in Rust but not in C#: album
+Field 'Involvedpeople' exists in C# but not in Rust: Adele
+Field 'Upc' exists in C# but not in Rust: 0634904074067
+Field 'Mediatype' exists in C# but not in Rust: album
+Field 'Organization' exists in C# but not in Rust: XL Recordings
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/25-adele/0634904074067
+Field 'Itunesadvisory' exists in C# but not in Rust: 0

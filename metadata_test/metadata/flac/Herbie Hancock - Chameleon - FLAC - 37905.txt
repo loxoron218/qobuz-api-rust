@@ -1,0 +1,48 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Herbie Hancock - Chameleon - FLAC - 37905.flac
+[System]        Directory                       : metadata_test/downloads/flac
+[System]        File Size                       : 11 MB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:30+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:30+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:30+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : FLAC
+[File]          File Type Extension             : flac
+[File]          MIME Type                       : audio/flac
+[FLAC]          Block Size Min                  : 4608
+[FLAC]          Block Size Max                  : 4608
+[FLAC]          Frame Size Min                  : 14377
+[FLAC]          Frame Size Max                  : 19307
+[FLAC]          Sample Rate                     : 96000
+[FLAC]          Channels                        : 2
+[FLAC]          Bits Per Sample                 : 24
+[FLAC]          Total Samples                   : 2880000
+[FLAC]          MD5 Signature                   : 00000000000000000000000000000000
+[FLAC]          Picture Type                    : Front Cover
+[FLAC]          Picture MIME Type               : image/jpeg
+[FLAC]          Picture Description             : 
+[FLAC]          Picture Width                   : 600
+[FLAC]          Picture Height                  : 600
+[FLAC]          Picture Bits Per Pixel          : 24
+[FLAC]          Picture Indexed Colors          : 0
+[FLAC]          Picture Length                  : 103739
+[FLAC]          Picture                         : (Binary data 103739 bytes, use -b option to extract)
+[Vorbis]        Vendor                          : 
+[Vorbis]        Title                           : Chameleon (Album Version)
+[Vorbis]        Album                           : Head Hunters
+[Vorbis]        Albumartist                     : Herbie Hancock
+[Vorbis]        Producer                        : David Rubinson
+[Vorbis]        Artist                          : Bennie Maupin, Herbie Hancock
+[Vorbis]        Composer                        : P. Jackson
+[Vorbis]        Label                           : Columbia - Legacy
+[Vorbis]        Genre                           : Jazz Fusion & Jazzrock
+[Vorbis]        Track Number                    : 1
+[Vorbis]        Tracktotal                      : 4
+[Vorbis]        Discnumber                      : 1
+[Vorbis]        Disctotal                       : 1
+[Vorbis]        Copyright                       : (P) 1973 Columbia Records, a division of Sony Music Entertainment
+[Vorbis]        ISRC Number                     : USSM17300165
+[Vorbis]        Year                            : 1973
+[Vorbis]        Date                            : 1973-10-13
+[Vorbis]        Media                           : album
+[Composite]     Duration                        : 0:00:30

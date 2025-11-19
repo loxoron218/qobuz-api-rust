@@ -1,0 +1,47 @@
+Differences between Kendrick Lamar - BLOOD. - FLAC - 40128300.txt and Kendrick Lamar - BLOOD.txt:
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:15+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'File Size' differs:
+  Rust: 2.6 MB
+  C#:   10 MB
+Field 'Media' exists in Rust but not in C#: album
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:01:58
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:16+01:00
+  C#:   2025:11:11 11:21:49+01:00
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'Total Samples' differs:
+  Rust: 1327104
+  C#:   5206740
+Field 'File Name' differs:
+  Rust: Kendrick Lamar - BLOOD. - FLAC - 40128300.flac
+  C#:   Kendrick Lamar - BLOOD.flac
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'Frame Size Min' differs:
+  Rust: 7486
+  C#:   2738
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:16+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'Frame Size Max' differs:
+  Rust: 10972
+  C#:   14011
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'Involvedpeople' exists in C# but not in Rust: Kendrick Lamar, MainArtist, ComposerLyricist - D. Tanenbaum, ComposerLyricist - Bekon, Producer - Anthony 'Top Dawg' Tiffith, Producer
+Field 'Upc' exists in C# but not in Rust: 0060255760871
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/damn-kendrick-lamar/0060255760871
+Field 'Organization' exists in C# but not in Rust: Aftermath
+Field 'Itunesadvisory' exists in C# but not in Rust: 1
+Field 'Mediatype' exists in C# but not in Rust: album

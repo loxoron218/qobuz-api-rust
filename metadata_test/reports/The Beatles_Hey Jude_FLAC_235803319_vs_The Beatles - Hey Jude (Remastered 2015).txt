@@ -1,0 +1,47 @@
+Differences between The Beatles - Hey Jude - FLAC - 235803319.txt and The Beatles - Hey Jude (Remastered 2015).txt:
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'Frame Size Max' differs:
+  Rust: 20352
+  C#:   21233
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:07:11
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:18+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'Frame Size Min' differs:
+  Rust: 16219
+  C#:   4898
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:18+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'File Name' differs:
+  Rust: The Beatles - Hey Jude - FLAC - 235803319.flac
+  C#:   The Beatles - Hey Jude (Remastered 2015).flac
+Field 'Total Samples' differs:
+  Rust: 2880000
+  C#:   41419520
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'File Size' differs:
+  Rust: 11 MB
+  C#:   157 MB
+Field 'Media' exists in Rust but not in C#: compilation
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:18+01:00
+  C#:   2025:11:11 11:29:48+01:00
+Field 'Mediatype' exists in C# but not in Rust: compilation
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/the-beatles-1967-1970-the-beatles/rlrv742tr79jb
+Field 'Organization' exists in C# but not in Rust: UMC (Universal Music Catalogue)
+Field 'Itunesadvisory' exists in C# but not in Rust: 0
+Field 'Upc' exists in C# but not in Rust: 0602458682199
+Field 'Involvedpeople' exists in C# but not in Rust: Giles Martin, Producer, MixingEngineer - John Lennon, ComposerLyricist - Paul Mccartney, ComposerLyricist - Andrew Walter, RecordingEngineer - Simon Gibson, RecordingEngineer - George Martin, Producer - Miles Showell, MasteringEngineer - James Clarke, RecordingEngineer - Sam Okell, MixingEngineer - The Beatles, MainArtist - Matt Mysko, MixingSecondEngineer - Al Sirkett, SoundDesigner

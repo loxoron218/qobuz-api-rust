@@ -1,0 +1,44 @@
+[ExifTool]      ExifTool Version Number         : 13.36
+[System]        File Name                       : Staatskapelle Dresden - Symphony No. 40 in G Minor, K. 550_ I. Molto Allegro - MP3 - 162673929.mp3
+[System]        Directory                       : metadata_test/downloads/mp3
+[System]        File Size                       : 1276 kB
+[System]        File Modification Date/Time     : 2025:11:19 23:37:21+01:00
+[System]        File Access Date/Time           : 2025:11:19 23:37:21+01:00
+[System]        File Inode Change Date/Time     : 2025:11:19 23:37:21+01:00
+[System]        File Permissions                : -rw-r--r--
+[File]          File Type                       : MP3
+[File]          File Type Extension             : mp3
+[File]          MIME Type                       : audio/mpeg
+[File]          ID3 Size                        : 75446
+[MPEG]          MPEG Audio Version              : 1
+[MPEG]          Audio Layer                     : 3
+[MPEG]          Audio Bitrate                   : 320 kbps
+[MPEG]          Sample Rate                     : 44100
+[MPEG]          Channel Mode                    : Joint Stereo
+[MPEG]          MS Stereo                       : Off
+[MPEG]          Intensity Stereo                : Off
+[MPEG]          Copyright Flag                  : False
+[MPEG]          Original Media                  : True
+[MPEG]          Emphasis                        : None
+[ID3v2_4]       Title                           : Symphony No. 40 in G Minor, K. 550: I. Molto Allegro (Remastered)
+[ID3v2_4]       Album                           : Mozart: Symphony No. 39 & 40
+[ID3v2_4]       Band                            : Staatskapelle Dresden/Otmar Suitner
+[ID3v2_4]       Artist                          : Staatskapelle Dresden/Otmar Suitner
+[ID3v2_4]       Musician Credits                : Wolfgang Amadeus Mozart, Composer - Staatskapelle Dresden, Orchestra, MainArtist - Copyright Control, MusicPublisher - Otmar Suitner, Conductor, MainArtist
+[ID3v2_4]       Composer                        : Wolfgang Amadeus Mozart
+[ID3v2_4]       Publisher                       : Eterna
+[ID3v2_4]       Genre                           : Klassik
+[ID3v2_4]       Copyright                       : 1976 Eterna, a label of Edel Music & Entertainment GmbH 2022 Eterna, a label of Edel Music & Entertainment GmbH
+[ID3v2_4]       ISRC                            : DES382144605
+[ID3v2_4]       Recording Time                  : 1976
+[ID3v2_4]       Release Time                    : 1976:10:25
+[ID3v2_4]       Commercial URL                  : https://www.qobuz.com/fr-fr/album/mozart-symphony-no-39-40-staatskapelle-dresden-otmar-suitner/h00nx1b5bbu1a
+[ID3v2_4]       Media                           : album
+[ID3v2_4]       Track                           : 5/8
+[ID3v2_4]       Part Of Set                     : 1/1
+[ID3v2_4]       Picture MIME Type               : image/jpeg
+[ID3v2_4]       Picture Type                    : Front Cover
+[ID3v2_4]       Picture Description             : 
+[ID3v2_4]       Picture                         : (Binary data 73603 bytes, use -b option to extract)
+[Composite]     Date/Time Original              : 1976
+[Composite]     Duration                        : 0:00:30 (approx)

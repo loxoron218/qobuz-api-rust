@@ -1,0 +1,47 @@
+Differences between Madonna - Like a Virgin - FLAC - 6004880.txt and Madonna - Like a Virgin.txt:
+Field 'File Size' differs:
+  Rust: 19 MB
+  C#:   135 MB
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:35+01:00
+  C#:   2025:11:11 11:22:40+01:00
+Field 'Duration' differs:
+  Rust: 0:00:30
+  C#:   0:03:38
+Field 'Picture Width' differs:
+  Rust: 600
+  C#:   0
+Field 'Total Samples' differs:
+  Rust: 5760000
+  C#:   41880840
+Field 'Frame Size Min' differs:
+  Rust: 13257
+  C#:   8854
+Field 'Picture Height' differs:
+  Rust: 600
+  C#:   0
+Field 'Media' exists in Rust but not in C#: album
+Field 'Frame Size Max' differs:
+  Rust: 16781
+  C#:   16994
+Field 'File Name' differs:
+  Rust: Madonna - Like a Virgin - FLAC - 6004880.flac
+  C#:   Madonna - Like a Virgin.flac
+Field 'Picture Bits Per Pixel' differs:
+  Rust: 24
+  C#:   0
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:34+01:00
+  C#:   2025:11:14 13:10:06+01:00
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:35+01:00
+  C#:   2025:11:14 13:10:05+01:00
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/flac
+  C#:   metadata_test/downloads/C#-songs/flac
+Field 'Url' exists in C# but not in Rust: https://www.qobuz.com/fr-fr/album/like-a-virgin-hi-res-version-madonna/0093624951117
+Field 'Itunesadvisory' exists in C# but not in Rust: 0
+Field 'Upc' exists in C# but not in Rust: 0093624951117
+Field 'Organization' exists in C# but not in Rust: Sire - Warner Records
+Field 'Mediatype' exists in C# but not in Rust: album
+Field 'Involvedpeople' exists in C# but not in Rust: Bob Ludwig, Masterer - Billy Steinberg, Writer - TOM KELLY, Writer - NILE RODGERS, Producer, Engineer - BERNARD EDWARDS, Bass - Tony Thompson, Drums - Rob Sabino, Synthesizer - Madonna, Vocals, MainArtist - Jason Corsaro, Mixer - Rob Eaton, Engineer

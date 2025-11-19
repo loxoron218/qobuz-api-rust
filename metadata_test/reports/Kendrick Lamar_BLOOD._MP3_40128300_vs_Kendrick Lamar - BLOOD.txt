@@ -1,0 +1,37 @@
+Differences between Kendrick Lamar - BLOOD. - MP3 - 40128300.txt and Kendrick Lamar - BLOOD.txt:
+Field 'ID3 Size' differs:
+  Rust: 65923
+  C#:   65369
+Field 'MS Stereo' differs:
+  Rust: On
+  C#:   Off
+Field 'File Modification Date/Time' differs:
+  Rust: 2025:11:19 23:37:14+01:00
+  C#:   2025:11:11 11:21:39+01:00
+Field 'Directory' differs:
+  Rust: metadata_test/downloads/mp3
+  C#:   metadata_test/downloads/C#-songs/mp3
+Field 'File Access Date/Time' differs:
+  Rust: 2025:11:19 23:37:14+01:00
+  C#:   2025:11:14 13:14:43+01:00
+Field 'File Size' differs:
+  Rust: 1267 kB
+  C#:   4.8 MB
+Field 'File Name' differs:
+  Rust: Kendrick Lamar - BLOOD. - MP3 - 40128300.mp3
+  C#:   Kendrick Lamar - BLOOD.mp3
+Field 'File Inode Change Date/Time' differs:
+  Rust: 2025:11:19 23:37:14+01:00
+  C#:   2025:11:14 13:10:09+01:00
+Field 'Duration' differs:
+  Rust: 0:00:30 (approx)
+  C#:   0:01:58 (approx)
+Field 'Musician Credits' exists in Rust but not in C#: Kendrick Lamar, MainArtist, ComposerLyricist - D. Tanenbaum, ComposerLyricist - Bekon, Producer - Anthony 'Top Dawg' Tiffith, Producer
+Field 'Lame Low Pass Filter' exists in C# but not in Rust: 20.5 kHz
+Field 'Lame VBR Quality' exists in C# but not in Rust: 4
+Field 'Lame Method' exists in C# but not in Rust: CBR
+Field 'Lame Bitrate' exists in C# but not in Rust: 255 kbps
+Field 'Involved People' exists in C# but not in Rust: Kendrick Lamar, MainArtist, ComposerLyricist - D. Tanenbaum, ComposerLyricist - Bekon, Producer - Anthony 'Top Dawg' Tiffith, Producer
+Field 'Lame Stereo Mode' exists in C# but not in Rust: Joint Stereo
+Field 'Encoder' exists in C# but not in Rust: LAME3.99r
+Field 'Lame Quality' exists in C# but not in Rust: 3
