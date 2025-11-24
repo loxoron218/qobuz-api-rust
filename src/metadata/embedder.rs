@@ -25,6 +25,7 @@ use lofty::{
 
 use crate::{
     errors::QobuzApiError::{self, IoError, LoftyError},
+    metadata::MetadataConfig,
     models::{Album, Artist, Track},
     utils::{download_image, timestamp_to_date_and_year},
 };
@@ -56,6 +57,7 @@ use crate::{
 /// * `track` - Track information containing title, performers, composers, etc.
 /// * `album` - Album information containing title, artists, label, dates, etc.
 /// * `artist` - Primary artist information
+/// * `config` - Configuration defining which metadata tags should be written
 ///
 /// # Returns
 ///
@@ -78,6 +80,7 @@ pub async fn embed_metadata_in_file(
     track: &Track,
     album: &Album,
     artist: &Artist,
+    config: &MetadataConfig,
 ) -> Result<(), QobuzApiError> {
     // Read the audio file
     let mut tagged_file = read_from_path(filepath).map_err(LoftyError)?;
@@ -118,7 +121,9 @@ pub async fn embed_metadata_in_file(
     tag.clear();
 
     // Add track metadata
-    if let Some(ref title) = track.title {
+    if config.track_title
+        && let Some(ref title) = track.title
+    {
         let mut full_title = title.clone();
         if let Some(ref version) = track.version
             && !version.is_empty()
@@ -128,7 +133,9 @@ pub async fn embed_metadata_in_file(
         tag.set_title(full_title);
     }
 
-    if let Some(ref album_title) = album.title {
+    if config.album
+        && let Some(ref album_title) = album.title
+    {
         // Combine album title with version if available, similar to C# implementation
         let album_name = if let Some(ref version) = album.version {
             if !version.is_empty() {
@@ -202,7 +209,7 @@ pub async fn embed_metadata_in_file(
         _ => album_artist_for_mp3, // Default to MP3 behavior for other formats
     };
 
-    if !album_artist_name.is_empty() {
+    if config.album_artist && !album_artist_name.is_empty() {
         let tag_item = TagItem::new(AlbumArtist, Text(album_artist_name));
         tag.push(tag_item);
     }
@@ -224,7 +231,8 @@ pub async fn embed_metadata_in_file(
     }
 
     // Set producers for FLAC files
-    if file_type == Flac
+    if config.producer
+        && file_type == Flac
         && let Some(ref performers_str) = track.performers
     {
         let producers = extract_producers_from_performers(performers_str);
@@ -260,7 +268,7 @@ pub async fn embed_metadata_in_file(
     }
 
     // Set the combined artist field
-    if !artist_names.is_empty() {
+    if config.artist && !artist_names.is_empty() {
         let combined_artists = match file_type {
             Flac => artist_names.join(", "),
             _ => artist_names.join("/"),
@@ -345,55 +353,69 @@ pub async fn embed_metadata_in_file(
     };
 
     // The Track model doesn't have a contributor field, so we'll just use performers and composer
-    if !involved_people.is_empty() {
+    if config.involved_people && !involved_people.is_empty() {
         // Add as MusicianCredits which maps to the Involved People field in ID3
         let tag_item = TagItem::new(MusicianCredits, Text(involved_people));
         tag.push(tag_item);
     }
 
     // Set composer - combine all composers with "/" separator as in the C# implementation
-    if !composers.is_empty() {
+    if config.composer && !composers.is_empty() {
         let combined_composers = composers.join("/");
         let tag_item = TagItem::new(Composer, Text(combined_composers));
         tag.push(tag_item);
     }
 
     // Set label/publisher
-    if let Some(ref album_label) = album.label
+    if config.label
+        && let Some(ref album_label) = album.label
         && let Some(ref label_name) = album_label.name
     {
         let tag_item = TagItem::new(Label, Text(label_name.clone()));
         tag.push(tag_item);
     }
 
-    if let Some(ref genre) = album.genre
+    if config.genre
+        && let Some(ref genre) = album.genre
         && let Some(ref genre_name) = genre.name
     {
         tag.set_genre(genre_name.clone());
     }
 
     // Add track number and total tracks
-    if let Some(track_number) = track.track_number {
+    if config.track_number
+        && let Some(track_number) = track.track_number
+    {
         tag.set_track(track_number as u32);
-        if let Some(ref album_tracks_count) = album.tracks_count {
-            tag.set_track_total(*album_tracks_count as u32);
-        }
+    }
+    if config.track_total
+        && let Some(ref album_tracks_count) = album.tracks_count
+    {
+        tag.set_track_total(*album_tracks_count as u32);
     }
 
     // Add disc number and total discs (Part of Set)
-    if let Some(media_number) = track.media_number {
+    if config.disc_number
+        && let Some(media_number) = track.media_number
+    {
         tag.set_disk(media_number as u32);
-        if let Some(ref album_media_count) = album.media_count {
-            tag.set_disk_total(*album_media_count as u32);
-        }
+    }
+    if config.disc_total
+        && let Some(ref album_media_count) = album.media_count
+    {
+        tag.set_disk_total(*album_media_count as u32);
     }
 
-    if let Some(ref copyright) = track.copyright {
+    if config.copyright
+        && let Some(ref copyright) = track.copyright
+    {
         let tag_item = TagItem::new(CopyrightMessage, Text(copyright.clone()));
         tag.push(tag_item);
     }
 
-    if let Some(ref isrc) = track.isrc {
+    if config.isrc
+        && let Some(ref isrc) = track.isrc
+    {
         let tag_item = TagItem::new(Isrc, Text(isrc.clone()));
         tag.push(tag_item);
     }
@@ -425,30 +447,36 @@ pub async fn embed_metadata_in_file(
     }
 
     // Set the year tag if available
-    if let Some(year) = primary_year {
+    if config.release_year
+        && let Some(year) = primary_year
+    {
         tag.set_year(year);
     }
 
-    // Set the RecordingDate (maps to TDRC in ID3v2, DATE in Vorbis Comments)
-    if file_type == Flac
-        && let Some(ref date_str) = primary_date_full
-    {
-        // Lofty automatically maps RecordingDate to the appropriate tag for Vorbis Comments (DATE)
-        let tag_item = TagItem::new(RecordingDate, Text(date_str.clone()));
-        tag.push(tag_item);
-    }
+    if config.release_date {
+        // Set the RecordingDate (maps to TDRC in ID3v2, DATE in Vorbis Comments)
+        if file_type == Flac
+            && let Some(ref date_str) = primary_date_full
+        {
+            // Lofty automatically maps RecordingDate to the appropriate tag for Vorbis Comments (DATE)
+            let tag_item = TagItem::new(RecordingDate, Text(date_str.clone()));
+            tag.push(tag_item);
+        }
 
-    // Set ReleaseDate (maps to TDRL frame in ID3)
-    // This should be set for MP3 files to match C# behavior for "Release Time", but not for FLAC.
-    if file_type == Mpeg
-        && let Some(ref date_str) = primary_date_full
-    {
-        let tag_item = TagItem::new(ReleaseDate, Text(date_str.clone()));
-        tag.push(tag_item);
+        // Set ReleaseDate (maps to TDRL frame in ID3)
+        // This should be set for MP3 files to match C# behavior for "Release Time", but not for FLAC.
+        if file_type == Mpeg
+            && let Some(ref date_str) = primary_date_full
+        {
+            let tag_item = TagItem::new(ReleaseDate, Text(date_str.clone()));
+            tag.push(tag_item);
+        }
     }
 
     // Add commercial URL - using CommercialInformationUrl field
-    if let Some(ref product_url) = album.product_url {
+    if config.url
+        && let Some(ref product_url) = album.product_url
+    {
         // Check if the URL is already a full URL or just a path
         let full_url = if product_url.starts_with("http") {
             product_url.clone()
@@ -461,49 +489,54 @@ pub async fn embed_metadata_in_file(
 
     // Add media type - using OriginalMediaType field
     // Use release_type if available, otherwise fall back to product_type to match C# implementation
-    match file_type {
-        Flac => {
-            // For FLAC, always add OriginalMediaType if release_type or product_type is "album" or "compilation"
-            if let Some(ref release_type) = album.release_type {
-                // If release_type is "compilation", use it directly. Otherwise, if it's "album", use "album".
-                // For any other release_type, use it as is.
-                let media_type_str = if release_type == "compilation" {
-                    "compilation".to_string()
-                } else if release_type == "album" {
-                    "album".to_string()
-                } else {
-                    release_type.clone()
-                };
-                let tag_item = TagItem::new(OriginalMediaType, Text(media_type_str));
-                tag.push(tag_item);
-            } else if let Some(ref product_type) = album.product_type {
-                // Fallback to product_type if release_type is not available, with similar logic
-                let media_type_str = if product_type == "compilation" {
-                    "compilation".to_string()
-                } else if product_type == "album" {
-                    "album".to_string()
-                } else {
-                    product_type.clone()
-                };
-                let tag_item = TagItem::new(OriginalMediaType, Text(media_type_str));
-                tag.push(tag_item);
+    if config.media_type {
+        match file_type {
+            Flac => {
+                // For FLAC, always add OriginalMediaType if release_type or product_type is "album" or "compilation"
+                if let Some(ref release_type) = album.release_type {
+                    // If release_type is "compilation", use it directly. Otherwise, if it's "album", use "album".
+                    // For any other release_type, use it as is.
+                    let media_type_str = if release_type == "compilation" {
+                        "compilation".to_string()
+                    } else if release_type == "album" {
+                        "album".to_string()
+                    } else {
+                        release_type.clone()
+                    };
+                    let tag_item = TagItem::new(OriginalMediaType, Text(media_type_str));
+                    tag.push(tag_item);
+                } else if let Some(ref product_type) = album.product_type {
+                    // Fallback to product_type if release_type is not available, with similar logic
+                    let media_type_str = if product_type == "compilation" {
+                        "compilation".to_string()
+                    } else if product_type == "album" {
+                        "album".to_string()
+                    } else {
+                        product_type.clone()
+                    };
+                    let tag_item = TagItem::new(OriginalMediaType, Text(media_type_str));
+                    tag.push(tag_item);
+                }
             }
-        }
-        _ => {
-            // For other file types, use the existing logic
-            if let Some(ref release_type) = album.release_type {
-                let tag_item = TagItem::new(OriginalMediaType, Text(release_type.clone()));
-                tag.push(tag_item);
-            } else if let Some(ref product_type) = album.product_type {
-                // Fallback to product_type if release_type is not available
-                let tag_item = TagItem::new(OriginalMediaType, Text(product_type.clone()));
-                tag.push(tag_item);
+
+            _ => {
+                // For other file types, use the existing logic
+                if let Some(ref release_type) = album.release_type {
+                    let tag_item = TagItem::new(OriginalMediaType, Text(release_type.clone()));
+                    tag.push(tag_item);
+                } else if let Some(ref product_type) = album.product_type {
+                    // Fallback to product_type if release_type is not available
+                    let tag_item = TagItem::new(OriginalMediaType, Text(product_type.clone()));
+                    tag.push(tag_item);
+                }
             }
         }
     }
 
     // Add cover art if available - try different image sizes in order of preference
-    if let Some(ref album_image) = album.image {
+    if config.cover_art
+        && let Some(ref album_image) = album.image
+    {
         // Try to get the best quality image available, in order of preference
         let image_url = album_image
             .mega

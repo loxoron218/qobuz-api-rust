@@ -74,22 +74,7 @@ pub mod errors;
 /// It includes utilities for working with various audio formats (FLAC, MP3, etc.) and
 /// handling comprehensive metadata including artist information, album details, track data,
 /// and cover art.
-pub mod metadata {
-    /// Module for embedding metadata into audio files.
-    ///
-    /// This module provides functionality to embed comprehensive metadata into audio files.
-    /// It handles different audio formats with format-specific tagging approaches to ensure
-    /// compatibility and consistency. The embedder can handle various metadata fields
-    /// including track titles, artist information, album details, release dates, and cover art.
-    pub mod embedder;
-    /// Module for extracting metadata from Qobuz API responses.
-    ///
-    /// This module provides functionality to extract comprehensive metadata from Qobuz API
-    /// response objects into a standardized key-value format. The extracted metadata can
-    /// be used for various purposes such as embedding in audio files, displaying in
-    /// applications, or processing in audio workflows.
-    pub mod extractor;
-}
+pub mod metadata;
 /// Data models for Qobuz API responses.
 ///
 /// This module contains all the data structures used to represent Qobuz API responses.

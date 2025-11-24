@@ -6,7 +6,8 @@ use std::{
 use {serde_json::to_string_pretty, tokio::main};
 
 use qobuz_api_rust::{
-    api::service::QobuzApiService, metadata::embedder::embed_metadata_in_file,
+    api::service::QobuzApiService,
+    metadata::{MetadataConfig, embedder::embed_metadata_in_file},
     utils::sanitize_filename,
 };
 
@@ -50,6 +51,9 @@ async fn main() -> Result<(), Box<dyn Error>> {
     create_dir_all("metadata_test/downloads/mp3")?;
     create_dir_all("metadata_test/downloads/flac")?;
     create_dir_all("metadata_test/metadata/json")?;
+
+    // Create default metadata config for all downloads
+    let metadata_config = MetadataConfig::default();
 
     // Process each track search
     for (search_query, genre, era) in TRACK_SEARCHES.iter() {
@@ -100,7 +104,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
                 // Download in MP3 format
                 match service
-                    .download_track(&track_id, MP3_FORMAT_ID, &mp3_path)
+                    .download_track(&track_id, MP3_FORMAT_ID, &mp3_path, &metadata_config)
                     .await
                 {
                     Ok(_) => {
@@ -117,7 +121,12 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
                 // Download in FLAC Hi-Res format
                 match service
-                    .download_track(&track_id, FLAC_HIRES_FORMAT_ID, &flac_path)
+                    .download_track(
+                        &track_id,
+                        FLAC_HIRES_FORMAT_ID,
+                        &flac_path,
+                        &metadata_config,
+                    )
                     .await
                 {
                     Ok(_) => {
@@ -138,6 +147,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
                                 .artist
                                 .as_ref()
                                 .unwrap(),
+                            &metadata_config,
                         )
                         .await
                         {

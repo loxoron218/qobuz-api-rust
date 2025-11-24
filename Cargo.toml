@@ -10,7 +10,7 @@ license = "GPL-3.0-or-later"
 name = "qobuz-api-rust"
 readme = "README.md"
 repository = "https://github.com/loxoron218/qobuz-api-rust"
-version = "0.1.0"
+version = "0.2.0"
 
 [dependencies]
 base64 = "0.22.1"

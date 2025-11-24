@@ -11,7 +11,7 @@ use crate::{
     errors::QobuzApiError::{
         self, ApiErrorResponse, DownloadError, HttpError, MetadataError, ResourceNotFoundError,
     },
-    metadata::embedder::embed_metadata_in_file,
+    metadata::{MetadataConfig, embedder::embed_metadata_in_file},
     models::{FileUrl, SearchResult, Track},
     utils::{get_current_timestamp, get_md5_hash},
 };
@@ -284,6 +284,7 @@ impl QobuzApiService {
         track_id: &str,
         format_id: &str,
         path: &str,
+        config: &MetadataConfig,
     ) -> Result<(), QobuzApiError> {
         match self.get_track_file_url(track_id, format_id).await {
             Ok(file_url) => {
@@ -389,7 +390,7 @@ impl QobuzApiService {
 
                     // Embed metadata in the downloaded file
                     println!("Embedding metadata in {}", path);
-                    embed_metadata_in_file(path, &track, &album, &artist)
+                    embed_metadata_in_file(path, &track, &album, &artist, config)
                         .await
                         .map_err(|e| MetadataError {
                             source: Box::new(e),

@@ -3,7 +3,8 @@ use std::io::stdin;
 use {dotenvy::dotenv, tokio::main};
 
 use qobuz_api_rust::{
-    api::service::QobuzApiService, errors::QobuzApiError, utils::sanitize_filename,
+    api::service::QobuzApiService, errors::QobuzApiError, metadata::MetadataConfig,
+    utils::sanitize_filename,
 };
 
 /// The main entry point for the Qobuz API Rust Client CLI application.
@@ -37,6 +38,8 @@ async fn main() -> Result<(), QobuzApiError> {
         "Qobuz API service initialized with app ID: {}",
         service.app_id
     );
+
+    let config = MetadataConfig::default();
 
     // Try to authenticate using environment variables
     // This will automatically try different authentication methods based on available environment variables:
@@ -143,7 +146,7 @@ async fn main() -> Result<(), QobuzApiError> {
                                 println!();
                                 println!("Downloading album...");
                                 match service
-                                    .download_album(album_id, &quality, &album_path)
+                                    .download_album(album_id, &quality, &album_path, &config)
                                     .await
                                 {
                                     Ok(_) => println!("Album downloaded successfully!"),
@@ -218,7 +221,12 @@ async fn main() -> Result<(), QobuzApiError> {
                                         extension
                                     );
                                     match service
-                                        .download_track(&track_id.to_string(), &quality, &filename)
+                                        .download_track(
+                                            &track_id.to_string(),
+                                            &quality,
+                                            &filename,
+                                            &config,
+                                        )
                                         .await
                                     {
                                         Ok(_) => {
@@ -277,7 +285,12 @@ async fn main() -> Result<(), QobuzApiError> {
                                 println!("Downloading track...");
                                 println!();
                                 match service
-                                    .download_track(&track_id.to_string(), &quality, &filename)
+                                    .download_track(
+                                        &track_id.to_string(),
+                                        &quality,
+                                        &filename,
+                                        &config,
+                                    )
                                     .await
                                 {
                                     Ok(_) => {

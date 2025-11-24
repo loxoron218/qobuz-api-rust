@@ -3,6 +3,7 @@ use std::fs::create_dir_all;
 use crate::{
     api::service::QobuzApiService,
     errors::QobuzApiError::{self, ApiErrorResponse, IoError},
+    metadata::MetadataConfig,
     models::{Album, SearchResult},
     utils::sanitize_filename,
 };
@@ -160,6 +161,7 @@ impl QobuzApiService {
         album_id: &str,
         format_id: &str,
         path: &str,
+        config: &MetadataConfig,
     ) -> Result<(), QobuzApiError> {
         let album = self
             .get_album(album_id, None, Some("track_ids"), None, None)
@@ -206,7 +208,7 @@ impl QobuzApiService {
 
                 // Attempt to download the track, with credential refresh on signature errors
                 match self
-                    .download_track(&track_id.to_string(), format_id, &track_path)
+                    .download_track(&track_id.to_string(), format_id, &track_path, config)
                     .await
                 {
                     Ok(()) => {
@@ -225,7 +227,12 @@ impl QobuzApiService {
                             Ok(new_service) => {
                                 // Use the new service instance to download the track
                                 match new_service
-                                    .download_track(&track_id.to_string(), format_id, &track_path)
+                                    .download_track(
+                                        &track_id.to_string(),
+                                        format_id,
+                                        &track_path,
+                                        config,
+                                    )
                                     .await
                                 {
                                     Ok(()) => {
